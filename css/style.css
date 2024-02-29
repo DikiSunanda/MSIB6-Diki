@@ -1,0 +1,125 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  /* list-style: none; */
+  text-decoration: none;
+  color: #dcf2f1;
+}
+
+/* Style Navbar start */
+
+.navbar-btn {
+  width: 100%;
+  background-color: cornflowerblue;
+}
+.navbar-btn ul {
+  list-style: none;
+  padding-left: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-btn ul li {
+  padding: 15px 15px 15px 15px;
+  background-color: #365486;
+  background-size: cover;
+  height: auto;
+}
+.navbar-btn ul li:hover {
+  background-color: #dcf2f1;
+  transition: 0.3s;
+}
+.navbar-btn ul li:visited {
+  background-color: #dcf2f1;
+}
+
+.navbar-btn ul li a:hover {
+  color: #365486;
+  font-size: 20px;
+}
+.navbar-btn ul li a:active {
+  color: cornflowerblue;
+}
+.navbar-btn ul li a:visited {
+  color: cornflowerblue;
+}
+
+/* Style Navbar End */
+
+/* Style Header Start */
+.my-head table {
+  border: 0;
+}
+.my-head table tr td img {
+  height: 100px;
+  width: 400px;
+}
+.my-head table tr td p {
+  font-size: 35px;
+  font-weight: bolder;
+}
+/* Style Header End */
+
+/* Style Footer Start */
+footer{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  height: 60px;
+}
+footer img{
+  width: 90px;
+  height: 50px;
+  align-items: center;
+}
+/* Style Footer End */
+
+/* Style Home Start */
+.wrap-content{
+  display: block;
+}
+.wrap-content .img-content p {
+  color:#365486;
+  font-weight: 900;
+  font-size: 30px
+}
+.wrap-content .img-content a {
+  color:cornflowerblue;
+  font-weight: bold;
+}
+.wrap-content .img-content a:hover {
+  font-size: 25px;
+}
+.wrap-content .img-content{
+  display:block;
+  align-items: center;
+  text-align: center;
+  color:#365486;
+  margin: 25px;
+}
+/* Style Home End */
+/* Style Left Right Start */
+fieldset p a{
+  font-size: 20px;
+}
+fieldset a:hover{
+  color:cornflowerblue;
+}
+/* Style Left Right End */
+
+/* Style Study Start */
+thead{
+  background-color: #365486;
+  color: cornflowerblue ;
+}
+
+table tbody tr td{
+  color: #365486;
+}
+/* Style Study End */
+
+/* Style Gallery start */
+#galleryjkt a img:hover {
+  width: 350px;
+  padding-top: 0px;
+  height:100%;
+}
+/* Style Gallery End*/
